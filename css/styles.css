@@ -31,3 +31,12 @@ button {
 button {
     cursor: pointer;
 }
+
+.container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 2rem auto;
+    height: 90vh;
+}
