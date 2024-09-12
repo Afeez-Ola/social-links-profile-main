@@ -41,7 +41,7 @@ ol {
 }
 
 .container {
-    width: 35%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,7 @@ ol {
     background: var(--grey-800);
     border-radius: 0.7rem;
     gap: 10px;
-    padding: 1.8rem;
+    padding: 2.5rem;
 }
 
 .intro_area {
@@ -80,10 +80,19 @@ ol {
     padding: 0.6rem 0;
 }
 
-.social_links {
+.social_links ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.social_links li {
+    text-wrap: nowrap;
+    text-align: center;
+    padding: .5rem 10rem;
+    background-color: var(--grey-700);
+    border-radius: 0.4rem;
 }
