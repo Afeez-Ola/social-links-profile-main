@@ -79,3 +79,11 @@ ol {
     font-weight: 400;
     padding: 0.6rem 0;
 }
+
+.social_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
