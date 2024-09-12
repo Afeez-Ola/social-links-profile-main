@@ -5,17 +5,27 @@
     box-sizing: border-box;
 }
 
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    ---grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --font-size: 14px;
+}
+
 body {
-    background: ;
-    color: ;
+    background: var(--grey-900);
+    color: var(--white);
     -webkit-font-smoothing: antialiased;
 }
 
 body,
 input,
 button {
-    font-size: ;
-    font-family: ;
+    font-size: var(--font-size);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
 button {
