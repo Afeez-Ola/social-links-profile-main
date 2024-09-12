@@ -80,19 +80,25 @@ ol {
     padding: 0.6rem 0;
 }
 
+.social_links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 .social_links ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    /* align-items: center; */
     text-align: center;
 }
 
 .social_links li {
     text-wrap: nowrap;
     text-align: center;
-    padding: .5rem 10rem;
+    padding: 4% 10%;
     background-color: var(--grey-700);
     border-radius: 0.4rem;
 }
