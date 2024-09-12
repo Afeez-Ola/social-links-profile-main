@@ -18,6 +18,8 @@ body {
     background: var(--grey-900);
     color: var(--white);
     -webkit-font-smoothing: antialiased;
+    height: 100%;
+    margin: 0;
 }
 
 body,
@@ -36,8 +38,8 @@ button {
     width: 35%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    margin: 2rem auto;
-    height: 90vh;
+    align-items: center;
+    margin: 12rem auto;
     background: var(--grey-800);
+    border-radius: 0.7rem;
 }
