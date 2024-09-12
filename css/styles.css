@@ -34,6 +34,12 @@ button {
     cursor: pointer;
 }
 
+ul,
+li,
+ol {
+    list-style: none;
+}
+
 .container {
     width: 35%;
     display: flex;
@@ -52,7 +58,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .intro_area img {
@@ -60,12 +66,16 @@ button {
     width: 50%;
 }
 
-.intro_area>p>strong {
+.intro_area .location {
     color: var(--green);
     font-weight: 600;
+    width: 100%;
+    display: block;
+    font-size: 12px;
 }
 
-.intro_area>p {
+.intro_area>.quote {
     font-size: 14px;
     font-weight: 400;
+    padding: 0.6rem 0;
 }
